@@ -1,0 +1,60 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>15 on JS</title>
+		<meta charset="utf-8"></meta>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="css/style.css">
+		<script src="js/script.js"></script>
+	</head>
+	<body>
+		<table align="center">
+			<thead>
+				<div align="center" id="refresh">
+					<input onclick="refresh()" type="button" value="ПЕРЕМЕШАТЬ">
+				</div>
+			</thead>
+            <tbody id="field">
+                <tr>
+                    <td><img src="jpg/1.jpg" onclick="shift(0)" name="1"></td>
+					<td><img src="jpg/2.jpg" onclick="shift(1)" name="2"></td>
+					<td><img src="jpg/3.jpg" onclick="shift(2)" name="3"></td>
+					<td><img src="jpg/4.jpg" onclick="shift(3)" name="4"></td>
+                </tr>
+                <tr>
+                    <td><img src="jpg/5.jpg" onclick="shift(4)" name="5"></td>
+					<td><img src="jpg/6.jpg" onclick="shift(5)" name="6"></td>
+					<td><img src="jpg/7.jpg" onclick="shift(6)" name="7"></td>
+					<td><img src="jpg/8.jpg" onclick="shift(7)" name="8"></td>
+                </tr>
+                <tr>
+                    <td><img src="jpg/9.jpg" onclick="shift(8)" name="9"></td>
+					<td><img src="jpg/10.jpg" onclick="shift(9)" name="10"></td>
+					<td><img src="jpg/11.jpg" onclick="shift(10)" name="11"></td>
+					<td><img src="jpg/12.jpg" onclick="shift(11)" name="12"></td>
+                </tr>
+                <tr>
+                    <td><img src="jpg/13.jpg" onclick="shift(12)" name="13"></td>
+					<td><img src="jpg/14.jpg" onclick="shift(13)" name="14"></td>
+					<td><img src="jpg/15.jpg" onclick="shift(14)" name="15"></td>
+					<td><img src="jpg/16.jpg" onclick="shift(15)" name="16"></td>
+                </tr>
+            </tbody>
+        </table>
+		<div align="center">
+			<p id="move"></p>
+			<p id="counter">
+				Ходов совершено:
+				<p id="count"></p>
+			</p>
+		</div>
+	</body>
+</html>
+
+<!--
+let clicks = 0;
+field.onclick = function() {
+	clicks++;
+	document.getElementById("count").innerHTML = clicks;
+}
+-->
